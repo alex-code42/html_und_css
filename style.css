@@ -1,0 +1,19 @@
+
+            
+body{
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.bar{
+    color: aquamarine;
+}
+
+#foo, #bar{
+    color: blueviolet;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
