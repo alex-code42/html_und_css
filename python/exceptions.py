@@ -4,7 +4,7 @@ try:
     x = int(input("x: "))
     y = int(input("y: "))
 except ValueError:
-    print("We need a number")
+    print("We need a number!")
     sys.exit(1)
 
 try:
