@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'task',
+    'tasks',
     'ichristmas',
     'django.contrib.admin',
     'django.contrib.auth',

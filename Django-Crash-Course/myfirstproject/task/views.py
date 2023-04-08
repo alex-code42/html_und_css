@@ -1,10 +1,16 @@
+from django import forms
 from django.http import HttpResponse
-
 from django.shortcuts import render
 
+list=["boss", "gauner", "gangster"]
 
 def index(request):
-    return render(request, "hello/index.html")
+    return render(request, "hello/index.html", {
+        "tasks": list
+    })
+
+def add(request):
+    return render(request, "hello/add.html")
 
 def yes(request):
     return render(request, "hello/yes.html")
